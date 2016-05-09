@@ -23,7 +23,7 @@
 # Check that networking is up.
 [ "$NETWORKING" = "no" ] && exit 0
 
-exec="/usr/local/sbin/vault"
+exec="/usr/local/bin/vault"
 prog=${exec##*/}
 
 lockfile="/var/lock/subsys/$prog"
